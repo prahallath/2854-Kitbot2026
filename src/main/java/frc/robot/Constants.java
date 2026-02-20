@@ -19,4 +19,16 @@ public class Constants {
     public class Hopper {
         public static final int motorID = 3;
     }
+
+    public static class Vision {
+        public static final String leftCamID = "Arducam_Left";
+        public static final String rightCamID = "Arducam_Right"; 
+
+        public static final int kYellowBallPipeline = 0;
+
+    // Physical measurements (Meters and Degrees)
+        public static final double kCameraHeightMeters = 0.4; 
+        public static final double kTargetHeightMeters = 0.0; // 0.0 because balls are on the floor
+        public static final double kCameraPitchDegrees = -20.0; 
+}
 }
